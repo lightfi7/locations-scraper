@@ -9,7 +9,7 @@ const makeDBConnection = () =>
   new Promise((resolve, reject) => {
     mongoose;
     mongoose
-      .connect("mongodb://127.0.0.1:27017/homestood")
+      .connect("mongodb://127.0.0.1:27017/homestead")
       .then(() => {
         console.log("Connected to the database!");
         resolve();
